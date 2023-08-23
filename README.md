@@ -29,7 +29,7 @@ Mymart is an e-commerce platform that aims to provide users with a seamless shop
 
 To install and run Mymart locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Ameensaa/Mymart`
+1. Clone the repository: `git clone https://github.com/AmeenHamza/MERN-Frontend`
 2. Navigate to the project directory: `cd Mymart`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
@@ -76,7 +76,7 @@ Mymart is licensed under the [MIT License](LICENSE).
 
 ## Additional Information
 
-For additional information, contact us at Mymart@example.com or visit our website [[https://Mymartbyrefiners.vercel.app][(https://mymart.cyclic.cloud/](https://mymart.cyclic.cloud/))]([https://www.Mymartbyrefiners.vercel.app](https://mymart.cyclic.cloud/)).
+For additional information, contact us at Mymart@example.com or visit our website [[https://Mymartbyrefiners.vercel.app][(https://mymart.cyclic.cloud/]
 
 
 # Mymart API
