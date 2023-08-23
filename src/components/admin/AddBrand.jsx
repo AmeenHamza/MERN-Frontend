@@ -39,7 +39,7 @@ function AddBrand() {
     image : brandImage
   }
 
-        axios.post('http://localhost:5000/api/brand/createBrand', payload)
+        axios.post('http://localhost:5001/api/brand/createBrand', payload)
         .then((json) => setMessage(json.data.message))
         .catch((err) => console.log(err))
 }

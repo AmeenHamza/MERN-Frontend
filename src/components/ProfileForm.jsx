@@ -21,7 +21,7 @@ export default function ProfileForm() {
 
   return (
     <>
-      <Button
+      <Button style={{background:'transparent'}}
         variant="light"
         className="custom-button d-flex align-items-center gap-2 text-white"
         onClick={handleShow}

@@ -20,7 +20,18 @@ const Home = () => {
     <>
       {/* Crousel start from here */}
       
-      <CrouselItem />
+  <div className="main-section">
+    <div className="main-content">
+      <h4>
+        <span className="span">Best Price</span>
+      </h4>
+      <h1>Incredible Prices</h1>
+      <h1>on All Your</h1>
+      <h1>Favourite Items</h1>
+      <p>Get more for selected brands</p>
+      <button>Shop Now</button>
+    </div>
+  </div>
       
       {/* Crousel end */}
 

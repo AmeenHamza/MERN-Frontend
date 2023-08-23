@@ -30,7 +30,7 @@ function AddCategory() {
       Image : categoryImage
     }
   
-          axios.post('http://localhost:5000/api/category/createCategory', payload)
+          axios.post('http://localhost:5001/api/category/createCategory', payload)
           .then((json) => (json.data.message))
           .catch((err) => console.log(err))
   }

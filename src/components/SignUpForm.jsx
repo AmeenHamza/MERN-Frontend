@@ -21,7 +21,7 @@ export default function SignupForm() {
 
   return (
     <>
-      <Button variant="light" className="btn custom-button d-flex align-items-center gap-2" onClick={handleShow}>
+      <Button style={{background:'transparent'}} variant="light" className="btn custom-button d-flex align-items-center gap-2" onClick={handleShow}>
         <AiOutlineUserAdd className="navbar-icon text-white" />
         <span className="d-none d-lg-inline text-white"> Sign Up</span>
       </Button>

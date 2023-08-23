@@ -30,9 +30,9 @@ function NavbarAdmin() {
 	}
 	return (
 		<>
-			<Navbar collapseOnSelect expand="lg" bg="white" sticky="top" className="custom-navbar">
+			<Navbar collapseOnSelect expand="lg" bg="white" sticky="top" className="custom-navbar" style={{background: 'linear-gradient(45deg, #fff,#000,lightblue, #000)', zIndex:'1000'}}>
 				<Container>
-					<Navbar.Brand href="/" className='nav-brand text-success'>ShopSmart</Navbar.Brand>
+					<Navbar.Brand href="/" className='nav-brand' style={{color:'#fff', fontSize:'26px'}}>Mymart</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="me-auto">
@@ -109,9 +109,9 @@ function NavbarAdmin() {
 						</Nav>
 						<ButtonGroup aria-label="Basic example">
 							<ProfileForm />
-							<Button variant="light" className="custom-button d-flex align-items-center gap-2" onClick={logOutUser}>
+							<Button variant="light" className="custom-button d-flex align-items-center gap-2" style={{background:'transparent'}} onClick={logOutUser}>
 								<PiSignOut className="navbar-icon text-white" />
-								<span className="d-none d-lg-inline text-white"> Sign Out</span>
+								<span className="d-none d-lg-inline text-white" > Sign Out</span>
 							</Button>
 						</ButtonGroup>
 					</Navbar.Collapse>

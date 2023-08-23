@@ -12,8 +12,8 @@ function ProductCard({product}) {
   return (
     <div className="col-md-4 my-4">
       <div className="container">
-      <Card style={{width: '250px', height: '63vh', border:'none', outline:'none',position:'relative'}} className="card-css">
-        <Card.Img variant="top" src={product.thumbnail} style={{width: '100%', height: '150px'}}/>
+      <Card style={{width: '300px', height: '65vh', outline:'none',position:'relative',    boxShadow: '12px 12px 6px #ccc',zIndex:'100'}} className="card-css">
+        <Card.Img variant="top" src={product.thumbnail} style={{width: '100%', height: '170px'}}/>
         <Card.Body>
           <Card.Title>{product.title}</Card.Title>
           <Card.Text>{product.description.length > 50 ?
@@ -21,7 +21,7 @@ function ProductCard({product}) {
           }
           </Card.Text>
           <Card.Text> <b>Price: </b>$ {product.price}</Card.Text>
-          <Link to={`/product/${product.id}`} style={{position:'absolute', bottom:'20%',right:'12px'}} className="btn btn-outline-dark float-end">View Details</Link>
+          <Link to={`/product/${product.id}`} style={{position:'absolute', bottom:'',right:''}} className="btn btn-outline-dark float-end">View Details</Link>
         </Card.Body>
       </Card>
     </div>
