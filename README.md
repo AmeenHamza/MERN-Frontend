@@ -1,7 +1,7 @@
-# ShopSmart API
+# Mymart API
 
 Table of Contents
-- [ShopSmart API](#shopsmart-api)
+- [Mymart API](#Mymart-api)
   - [Introduction](#introduction)
   - [Endpoints](#endpoints)
     - [User Management](#user-management)
@@ -17,7 +17,7 @@ Table of Contents
 
 ## Introduction
 
-The ShopSmart API is a powerful backend application built using Express and MongoDB. It provides various endpoints to manage users, categories, brands, and products for your e-commerce platform.
+The Mymart API is a powerful backend application built using Express and MongoDB. It provides various endpoints to manage users, categories, brands, and products for your e-commerce platform.
 
 ## Endpoints
 
