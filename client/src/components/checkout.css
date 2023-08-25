@@ -2,7 +2,7 @@
 .form {
     --col1: #fff;
     --col2: #252325;
-    --col3: rgba(232, 213, 196, 0.9);
+    --col3: rgba(49, 191, 196, 0.9);
     --col4: #ffffff;
     --col5: #683363;
     --sh: rgba(80, 80, 80, 0.35);
@@ -28,7 +28,7 @@
     font-weight: 700;
     display: grid;
     width: calc(100% - 2em);
-    height: 60%;
+    height: auto;
     position: absolute;
     place-items: center;
     z-index: 99999;
@@ -58,7 +58,7 @@
   .form:hover,
   .form:focus-within {
     max-width: 100%;
-    max-height: 380px;
+    height: auto;
   }
   
   .form:focus-within {

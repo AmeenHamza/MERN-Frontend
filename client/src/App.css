@@ -114,7 +114,6 @@
   text-align: center;
   margin: 50px 0;
   margin-bottom: -50px;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   height: auto;
 }
 
@@ -137,7 +136,7 @@
 }
 
 .partner-item {
-  margin: 0 20px;
+  margin: 0 40px;
 }
 
 .partner-item img {
