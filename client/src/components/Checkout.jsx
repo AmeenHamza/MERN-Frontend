@@ -94,11 +94,9 @@ export default function Checkout() {
 		<form className="form">
 
 			<header>
-<<<<<<< HEAD
+
 				<h2 className='text-center'>Order Information <span className='text-danger'>{message}</span></h2>
-=======
 				<h2 className='text-center'>Order Information {message}</h2>
->>>>>>> d9062b0b4b51c59f9f1cbf8f05e1bd1fbf3fe4b4
 				<span className="message">Fill the form to continue.</span>
 			</header>
 			<label>
@@ -115,7 +113,7 @@ export default function Checkout() {
 			<label>
 				<span>Customer Contact</span>
 				<input
-					placeholder="Type your address"
+					placeholder="Type your contact"
 					className="input"
 					type="text"
 					required={true}
@@ -124,7 +122,7 @@ export default function Checkout() {
 				/>
 			</label>
 			<label>
-				<span>Customer Contact</span>
+				<span>Customer Address</span>
 				<input
 					placeholder="Type your address"
 					className="input"
